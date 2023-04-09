@@ -34,7 +34,7 @@ Secondly, to create a new dialog, it is not necessary to create a new instance o
 
 In case the wrong message was added by mistake, or you don't like any of the chatGPT responses, you can delete the last message using the DeleteLastMessage() method:
 
-    client.ClearMessages();
+    client.DeleteLastMessage();
     
 
 You can get the entire history of messages in a dialog using the GetMessageHistory() method:
